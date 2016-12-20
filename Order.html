@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Order Status</title>
+    <style>
+        body{
+            background-color: aliceblue;
+        }
+        h1{
+            color: green;
+            text-align: center;
+        }
+        form{
+            margin-left: 35%;
+            margin-right:35%;
+            width: 100%;
+        }
+        form input[type='submit']  {
+            display: inline-block;
+            width: 70px;
+        }
+
+        div.submitWrapper  {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<h1>Backorder Auto Update</h1>
+<form action = "upload.php", method="post" enctype="multipart/form-data">
+                Select file to upload:
+                <input type="file" name="uploadFile" id="uploadFile">
+                <input type = "submit" value = "Upload File" name="upload">
+
+</form>
+</body>
+</html>
